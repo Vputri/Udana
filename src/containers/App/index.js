@@ -1,16 +1,14 @@
-import { Routes, Route } from "react-router-dom";
-import Header from "../../component/Header";
-import Footer from "../../component/Footer";
+import { Routes, Route,  Switch} from "react-router-dom";
 import Home from "../Home";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Routes>
+  
+      <Switch>
         <Route path="/" component={Home} exact />
-      </Routes>
-      <Footer />
+      </Switch>
+      
     </div>
   );
 }
