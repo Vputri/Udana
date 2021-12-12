@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "../../index.css";
+import logo from "../../asset/step01.2a5ba443.png";
+import logo1 from "../../asset/step02.4acbe514.png";
+import logo2 from "../../asset/step03.9e86c054.png";
 
 class Section1 extends Component {
   render() {
@@ -19,7 +22,7 @@ class Section1 extends Component {
 
                 <div class="row">
                   <div class="col">
-                    <img class="mb-3" src="https://udana.id/images/asset/step01.2a5ba443.png"/>
+                    <img class="mb-3" src={logo}/>
                     <div class="item-content">
                       <div class="one">
                         <h3 class="item-title">Pilih UMKM</h3> 
@@ -30,7 +33,7 @@ class Section1 extends Component {
                     </div>
                   </div>
                   <div class="col">
-                    <img src="https://udana.id/images/asset/step02.4acbe514.png"/>
+                    <img src={logo2}/>
                     <div class="item-content">
                       <div class="two">
                         <h3 class="item-title">Analisa Bisnis</h3> 
@@ -41,7 +44,7 @@ class Section1 extends Component {
                     </div>
                   </div>
                   <div class="col">
-                    <img src="https://udana.id/images/asset/step03.9e86c054.png"/>
+                    <img src={logo2}/>
                     <div class="item-content">
                       <div class="tree">
                         <h3 class="item-title">Mulai Berinvestasi</h3> 

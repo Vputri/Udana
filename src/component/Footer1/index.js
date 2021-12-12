@@ -1,5 +1,12 @@
 import React, { Component } from "react";
 import "../../index.css";
+import logo from "../../asset/kominfo.png";
+import logo1 from "../../asset/pse.48c9c695.png";
+import logo2 from "../../asset/aludi.png";
+import logo3 from "../../asset/iso27001.50835ee7.png";
+import sosmed from "../../asset/instagram.ae467a00.png";
+import sosmed1 from "../../asset/linkedin.af4a5098.png";
+
 
 class Footer1 extends Component {
   render() {
@@ -71,12 +78,12 @@ class Footer1 extends Component {
                         <div>
                           <span className="mx-2">
                             <a href="https://instagram.com/" target="_blank">
-                              <img class="img50" src="https://udana.id/images/icon/instagram.ae467a00.png"/>
+                              <img class="img50" src={sosmed}/>
                             </a>
                           </span>
                           <span className="mx-2">
                             <a href="https://www.linkedin.com/" target="_blank">
-                              <img class="img50" src="https://udana.id/images/icon/linkedin.af4a5098.png"/>
+                              <img class="img50" src={sosmed1}/>
                             </a>  
                           </span>  
                         </div>
@@ -85,17 +92,17 @@ class Footer1 extends Component {
                         <b>Didukung oleh</b>
                         <div class="row">
                           <div class="col">
-                            <img src="https://udana.id/images/logo/kominfo.73ae8f53.png"/>
+                            <img src={logo}/>
                           </div>
                           <div class="col">
-                            <img src="https://udana.id/images/logo/pse.48c9c695.png"/>
+                            <img src={logo1}/>
                           </div>
                           <div class="col">
-                            <img src="https://udana.id/images/logo/aludi.e09ed87e.png"/>
+                            <img src={logo2}/>
                           </div>
                         </div>
                         <div class="row">
-                          <img src="https://udana.id/images/logo/iso27001.50835ee7.png"/>
+                          <img src={logo3}/>
                         </div>
                       </div>
                     </div>
