@@ -18,7 +18,7 @@ class Section2 extends Component {
                     <div class="col-md-5">
                       <div class="section1">
                         <div class="label2">
-                          <img src="https://udana.id/images/asset/icon-location.13aef6cf.png" alt=""/> PT Dana Rintis Indonesia
+                          <img src="https://udana.id/images/asset/icon-location.13aef6cf.png" alt=""/>PT Dana Rintis Indonesia
                         </div>
                         <p class="alamat">Jl. KH. Hasyim Ashari No.17, Petojo
                           <br/>Kecamatan Gambir, Kota Jakarta Pusat
@@ -32,10 +32,7 @@ class Section2 extends Component {
                         </div>
                       </div> 
                     </div>
-
                     <div class="col-md-2"></div>
-
-
                   </div>
                 </div>
               </div>

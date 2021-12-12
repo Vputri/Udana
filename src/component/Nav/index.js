@@ -20,8 +20,8 @@ const Navig = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <NavLink to="/" className="nav-item px-5 nav-link">Masuk</NavLink>
-            <a class="btn btn-warning putih" href="">Daftar</a>
+            <NavLink to="/Login" className="nav-item px-5 nav-link text-reset text-decoration-none">Masuk</NavLink>
+            <a class="btn btn-warning putih text-reset text-decoration-none" href="/Register">Daftar</a>
           </Nav>
         </Navbar.Collapse>
 

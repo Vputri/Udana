@@ -25,7 +25,7 @@ class Section2 extends Component {
                         <h5 class="card-title name">Rindu Candu Milk Bar</h5>
                       </div>
                       <div class="card-footer footer">
-                        <a class="detail" href="">LIHAT DETAIL</a>
+                        <a class="detail" href="/ComingSoon">LIHAT DETAIL</a>
                       </div>
                     </div>
                   </div>
@@ -38,7 +38,7 @@ class Section2 extends Component {
                         <h5 class="card-title name">Mr. Big</h5>
                       </div>
                       <div class="card-footer footer">
-                        <a class="detail" href="">LIHAT DETAIL</a>
+                        <a class="detail" href="/ComingSoon">LIHAT DETAIL</a>
                       </div>
                     </div>
                   </div>
@@ -51,7 +51,7 @@ class Section2 extends Component {
                         <h5 class="card-title name">Nasi Balap</h5>
                       </div>
                       <div class="card-footer footer">
-                        <a class="detail" href="">LIHAT DETAIL</a>
+                        <a class="detail" href="/ComingSoon">LIHAT DETAIL</a>
                       </div>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ class Section2 extends Component {
                         <h5 class="card-title name">Nyoklat Teen</h5>
                       </div>
                       <div class="card-footer footer">
-                        <a class="detail" href="">LIHAT DETAIL</a>
+                        <a class="detail" href="/ComingSoon">LIHAT DETAIL</a>
                       </div>
                     </div>
                   </div>
@@ -79,7 +79,7 @@ class Section2 extends Component {
                         <h5 class="card-title name">Haba Haus</h5>
                       </div>
                       <div class="card-footer footer">
-                        <a class="detail" href="">LIHAT DETAIL</a>
+                        <a class="detail" href="/ComingSoon">LIHAT DETAIL</a>
                       </div>
                     </div>
                   </div>
@@ -92,14 +92,14 @@ class Section2 extends Component {
                         <h5 class="card-title name">Hello Sugar</h5>
                       </div>
                       <div class="card-footer footer">
-                        <a class="detail" href="">LIHAT DETAIL</a>
+                        <a class="detail" href="/ComingSoon">LIHAT DETAIL</a>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <div class="text-center">
-                  <a href="/waralaba" class="fw-bolder name">Lihat Semua</a>
+                  <a href="/ComingSoon" class="fw-bolder name">Lihat Semua</a>
                 </div>
 
               </div>

@@ -17,7 +17,7 @@ const Header = () => {
             	Temukan bisnis UMKM & Waralaba yang anda sukai dan mulai menjadi investor untuk kemajuan perekonomian bangsa tanpa perlu pusing dengan operasional sehari-hari
             </p>
             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-              <a class="btn btn-warning btn-lg px-4 me-sm-3 putih" href="">Investasi Sekarang &nbsp; ⟶</a>
+              <a class="btn btn-warning btn-lg px-4 me-sm-3 putih" href="/Register">Investasi Sekarang &nbsp; ⟶</a>
             </div>
           </div>
         </div>

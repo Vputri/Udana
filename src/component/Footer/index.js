@@ -7,7 +7,6 @@ class Footer extends Component {
     return (
           <div>
             <Footer1 />
-
             <section class="bg-light text-muted">
               <div class="py-5 container">
                 <p>PT DANA RINTIS INDONESIA merupakan perusahaan berbadan hukum yang didirikan berdasarkan Hukum Republik Indonesia. Berdiri sebagai perusahaan yang masih dalam proses pendaftaran oleh Otoritas Jasa Keuangan (OJK) di Indonesia. Perusahaan menyediakan layanan antar muka (interface) sebagai penghubung pihak yang memberikan pendanaan dan pihak yang membutuhkan pendanaan meliputi pendanaan dari individu, organisasi, maupun badan hukum kepada individu atau badan hukum tertentu. Perusahaan tidak menyediakan segala bentuk saran atau rekomendasi pendanaan terkait pilihan-pilihan dalam situs ini. Isi dan materi yang tersedia pada situs Udana.id dimaksudkan untuk memberikan informasi dan tidak dianggap sebagai sebuah penawaran, permohonan, undangan, saran, maupun rekomendasi untuk pendanaan sekuritas, produk pasar modal, atau jasa keuangan lainya. Perusahaan dalam memberikan jasanya hanya terbatas pada fungsi administratif. Perusahaan tidak memberikan saran, memberi kewajiban atau kewajiban lainya untuk jasanya.</p>

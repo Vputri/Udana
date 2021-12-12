@@ -1,6 +1,4 @@
 import React from "react";
-import Trial from './'
-import { Link } from 'react-router-dom';
 
 class Brewery extends React.Component {
   constructor(props) {
