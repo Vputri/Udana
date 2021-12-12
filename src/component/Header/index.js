@@ -8,11 +8,11 @@ const Header = () => {
   return (
   <header class="background">
   	<Navig/>
-    <div class="container px-5">
+    <div class="container py-5 px-5">
       <div class="row gx-5 align-items-center justify-content-center">
         <div class="col-lg-8 col-xl-7 col-xxl-6">
           <div class="my-5 text-center text-xl-start">
-            <h1 class="display-5 fw-bolder mb-4 kuning">Jadilah Investor UMKM & Waralaba</h1>
+            <h1 class="display-5 fw-bolder mb-5 kuning">Jadilah Investor UMKM & Waralaba</h1>
             <p class="lead fw-normal putih mb-5">
             	Temukan bisnis UMKM & Waralaba yang anda sukai dan mulai menjadi investor untuk kemajuan perekonomian bangsa tanpa perlu pusing dengan operasional sehari-hari
             </p>
@@ -21,7 +21,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div class="col-xl-5 col-xxl-6 text-center">
+        <div class="col-xl-5 col-xxl-6 text-center mb-5">
         </div>
       </div>
     </div>

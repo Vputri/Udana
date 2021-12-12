@@ -4,8 +4,8 @@ import logo from "../../asset/udana.81589961.png";
 
 const Register = () => {
   return (
-      <section class="bg-kuning py-5">
-        <div class="container py-5">
+      <section class="bg-kuning py-4">
+        <div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-12">
 		          <form class="form register">  
@@ -65,7 +65,7 @@ const Register = () => {
   					<button class="btn button-kuning mt-3" disabled type="submit">Daftar Akun</button>
 		          </form>
 		        </div>
-				<div class="text-center mb-3">
+				<div class="text-center">
 					<p>Sudah punya akun? Silahkan
 						<a class="btn btn-link" href="/Login">
 		          			<u>Masuk disini</u>

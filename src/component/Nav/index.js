@@ -6,7 +6,7 @@ import logo from "../../asset/udana-logo-white.f9ff6fcf.png";
 
 const Navig = () => {
   return (
-    <Navbar collapseOnSelect expand="sm" className="navbar navbar-expand-lg">
+    <Navbar collapseOnSelect expand="sm" className="navbar navbar-expand-lg mb-2">
       <div className="container">
         <Navbar.Brand>
           <NavLink to="/" className="nav-item px-3 nav-link active">

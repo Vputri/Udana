@@ -5,7 +5,7 @@ import logo from "../../asset/udana.81589961.png";
 const Login = () => {
   return (
       <section class="bg-kuning py-5">
-        <div class="container py-5">
+        <div class="container py-3">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
 		          <form class="form login">  

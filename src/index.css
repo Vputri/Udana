@@ -230,3 +230,11 @@ body{
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
+
+.lead{
+  font-size: 1.5rem;
+}
+
+.display-5 {
+  font-size: 3.5rem;
+}
