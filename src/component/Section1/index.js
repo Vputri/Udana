@@ -1,11 +1,9 @@
-import React, { Component } from "react";
-import "../../index.css";
+import React from "react";
 import logo from "../../asset/step01.2a5ba443.png";
 import logo1 from "../../asset/step02.4acbe514.png";
 import logo2 from "../../asset/step03.9e86c054.png";
 
-class Section1 extends Component {
-  render() {
+const Section1 = () => {
     return (
             <section class="py-5 gambar">
               <div class="container">
@@ -59,6 +57,5 @@ class Section1 extends Component {
             </section>
     )
   }
-}
 
 export default Section1;

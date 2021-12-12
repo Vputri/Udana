@@ -1,13 +1,11 @@
-import React, { Component } from "react";
-import "../../index.css";
+import React from "react";
 import Section1 from "../../component/Section1";
 import Section2 from "../../component/Section2";
 import Section3 from "../../component/Section3";
 import Header from "../../component/Header";
 import Footer from "../../component/Footer";
 
-class Home extends Component {
-  render() {
+const Home = () => {
     return (
       <div>
         <Header />
@@ -17,7 +15,6 @@ class Home extends Component {
         <Footer />
       </div>
     )
-  }
 }
 
 export default Home;

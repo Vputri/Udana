@@ -1,5 +1,4 @@
 import React from "react";
-import "../../index.css";
 import logo from "../../asset/udana.81589961.png";
 
 const Login = () => {

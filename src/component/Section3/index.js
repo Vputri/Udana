@@ -1,8 +1,6 @@
-import React, { Component } from "react";
-import "../../index.css";
+import React from "react";
 
-class Section2 extends Component {
-  render() {
+const Section3 = () => {
     return (
             <section class="py-5">
               <div class="container">
@@ -39,6 +37,5 @@ class Section2 extends Component {
             </section>
     )
   }
-}
 
-export default Section2;
+export default Section3;

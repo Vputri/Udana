@@ -1,4 +1,6 @@
 import React from "react";
+import BootstrapTable from 'react-bootstrap-table-next';
+import paginationFactory from 'react-bootstrap-table2-paginator';
 
 class Brewery extends React.Component {
   constructor(props) {
@@ -20,37 +22,48 @@ class Brewery extends React.Component {
 
   render() {
     const { breweries } = this.state;
+    const columns = [
+      { dataField: 'name', text: 'Name' },
+      { dataField: 'city', text: 'City' },
+      { dataField: 'state', text: 'State' },
+      { dataField: 'postal_code', text: 'Postal Code' },
+      { dataField: 'country', text: 'Country'}
+    ];
+
+    const customTotal = (from, to, size) => (
+      <span className="react-bootstrap-table-pagination-total">
+        Showing { from } to { to } of { size } Results
+      </span>
+    );
+    const options = {
+      paginationSize: 4,
+      pageStartIndex: 0,
+      showTotal: true,
+      prePageText: 'Back',
+      nextPageText: 'Next',
+      sizePerPageList: [
+        { text: '5', value: 5 },
+        { text: '10', value: 10 },
+      ]
+    };
+
     return(
-          <div class="bg-light">
+          <div class="bg-light py-5">
             <div class="container px-5">
               <div class="text-center py-5">
                 <h1 class="fw-bolder">List Breweries</h1>
               </div>
-
-              <table class="table table-bordered">
-                <thead>
-                  <tr class="text-center table-info">
-                    <th scope="col">Name</th>
-                    <th scope="col">City</th>
-                    <th scope="col">State</th>
-                    <th scope="col">Postal Code</th>
-                    <th scope="col">Country</th>
-                  </tr>
-                </thead>
-                {breweries.map((brewery) => {
-                  return (
-                    <tbody>
-                      <tr key={brewery.id}>
-                        <td>{brewery.name}</td>
-                        <td>{brewery.city}</td>
-                        <td>{brewery.state}</td>
-                        <td>{brewery.postal_code}</td>
-                        <td>{brewery.country}</td>
-                      </tr>
-                    </tbody>
-                  );
-                })}
-              </table>
+              <div class="mb-5">
+                <BootstrapTable 
+                  keyField='id'
+                  data={ breweries }
+                  columns={ columns }
+                  pagination={ paginationFactory(options) }
+                />
+              </div>
+              <div class="copyright-footer text-center">
+                <span>Copyright Udana.id © 2020 by All Rights Reserved.</span>
+              </div>
             </div>
           </div>
     )}}

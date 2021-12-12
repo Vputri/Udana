@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import "../../index.css";
+import React from "react";
 import logo from "../../asset/kominfo.png";
 import logo1 from "../../asset/pse.48c9c695.png";
 import logo2 from "../../asset/aludi.png";
@@ -7,9 +6,7 @@ import logo3 from "../../asset/iso27001.50835ee7.png";
 import sosmed from "../../asset/instagram.ae467a00.png";
 import sosmed1 from "../../asset/linkedin.af4a5098.png";
 
-
-class Footer1 extends Component {
-  render() {
+const Footer1 = () => {
     return (
             <section class="py-5">
               <div class="container">
@@ -121,6 +118,5 @@ class Footer1 extends Component {
             </section>
     )
   }
-}
 
 export default Footer1;

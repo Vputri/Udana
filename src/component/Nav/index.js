@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom'
 import { Nav, Navbar, Form } from "react-bootstrap";
-import "../../index.css";
 import logo from "../../asset/udana-logo-white.f9ff6fcf.png";
 
 const Navig = () => {
