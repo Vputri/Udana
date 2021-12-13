@@ -48,4 +48,4 @@ Udana dapat diakses melalui link [https://udanaa.herokuapp.com/](https://udanaa.
 
 ### Brewery
 
-![Brewery](https://github.com/Vputri/Udana/blob/master/Output/Screenshot_2021-12-12%20Udana%20id%20Platform%20Crowdfunding%20Investasi%20UMKM(3).png)
+![Brewery](https://raw.githubusercontent.com/Vputri/Udana/master/Output/Brewery.png?token=AIOGDQQN4FI3TEI3OA7EYVTBW2GSK)
