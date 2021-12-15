@@ -4,7 +4,7 @@ Udana adalah Remake web https://udana.id/ halaman depan saja menggunakan framewo
 
 ## Functional Specification
 
-Vhiweb memiliki 3 halaman utama yaitu
+Udana memiliki 4 halaman utama yaitu
 
 ### Home
 Home merupakan halaman utama dari website.
